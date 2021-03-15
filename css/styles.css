@@ -158,9 +158,9 @@ footer .socialmedia {
   }
 }
 .hero {
-  max-width: 1280px;
+  max-width: 980px;
   height: 500px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tours-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -189,7 +189,7 @@ footer .socialmedia {
 }
 
 .promo-tours {
-  max-width: 1280px;
+  max-width: 980px;
   min-height: 304px;
   margin: -50px auto;
   display: flex;
@@ -205,13 +205,14 @@ footer .socialmedia {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 30 px;
+  text-align: center;
 }
 .promo-tours .promo .header {
+  margin-top: 20px;
   font-family: GillSans;
   font-size: 40px;
   margin-bottom: 15px;
@@ -223,6 +224,8 @@ footer .socialmedia {
   background-color: #79ADDC;
   padding: 10px 30px;
   border-radius: 20px;
+  width: 60%;
+  margin: auto;
 }
 .promo-tours .israel {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
@@ -232,6 +235,24 @@ footer .socialmedia {
 }
 .promo-tours .austrailia {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+}
+.promo-tours .new_zealand {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-04.jpg);
+}
+.promo-tours .france {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-05.jpg);
+}
+.promo-tours .egypt {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-06.jpg);
+}
+.promo-tours .japan {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-07.jpg);
+}
+.promo-tours .canada {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-08.jpg);
+}
+.promo-tours .uae {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-09.jpg);
 }
 
 @media only screen and (max-width: 1060px) {

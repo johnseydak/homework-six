@@ -1,5 +1,5 @@
 .promo-tours {
-    max-width: 1280px;
+    max-width: 980px;
     min-height: 304px;
     //background-color: cadetblue;
     margin: -50px auto;
@@ -17,17 +17,18 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: $white;
-        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-bottom: 30 px;
+        text-align: center;
        
         .header {
+            margin-top: 20px;
             font-family: GillSans;
             font-size: 40px;
             margin-bottom: 15px;
-
+            //min-height: 200px;  need to change the height of this
         }
         .price {
             margin-bottom: 70px;
@@ -36,13 +37,14 @@
             background-color: $site-blue;
             padding: 10px 30px;
             border-radius: 20px;
+            width: 60%;
+            margin: auto;
         }
 
 
     }
     .israel {
-        background-image:  $overlay, url(../images/tour-01.jpg);;
-        
+        background-image: $overlay, url(../images/tour-01.jpg);
     }
     .usa {
         background-image: $overlay, url(../images/tour-02.jpg);
@@ -50,7 +52,24 @@
     .austrailia {
         background-image: $overlay, url(../images/tour-03.jpg);
     }
-
+    .new_zealand {
+        background-image:  $overlay, url(../images/tour-04.jpg);
+    }
+    .france {
+        background-image:  $overlay, url(../images/tour-05.jpg);
+    }
+    .egypt {
+        background-image:  $overlay, url(../images/tour-06.jpg);
+    }
+    .japan {
+        background-image:  $overlay, url(../images/tour-07.jpg);
+    }
+    .canada {
+        background-image:  $overlay, url(../images/tour-08.jpg);
+    }
+    .uae {
+        background-image:  $overlay, url(../images/tour-09.jpg);
+    }
 }
 
 @media only screen and (max-width: 1060px) {
