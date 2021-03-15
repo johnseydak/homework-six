@@ -1,0 +1,65 @@
+footer {
+    max-width: 1280px;
+    height:100px;
+    background-color: $site-blue;
+    background-size:cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    margin-top: 285px;
+    //position: absolute; //needs more stuff tying it to the bottom
+    margin-bottom: 0px;
+
+    .logo {
+        //background-color: red;
+        width: 92px;
+        height: 42px;
+        align-self: center;
+    
+    }
+    .copyright {
+        font-size: 12px;
+        align-self: center;
+        color: $white;
+    }
+    .socialmedia {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        color: $white;
+    }
+}
+
+@media only screen and (max-width: 1060px) {  //clean up and consolidate this
+    
+  
+    footer{
+      //position: absolute; //needs more stuff tying it to the bottom
+      //bottom: 0;
+      max-width: 100%;
+      height: 100px;
+      background-color: #79ADDC;
+      background-size: cover;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 120px;
+    }
+    footer .logo{
+      width: 92px;
+      height: 42px;
+      align-self: center;
+    }
+    footer .copyright{
+      font-size: 12px;
+      align-self: center;
+      color: #fff;
+    }
+    footer .socialmedia{
+      display: flex;
+      justify-content: space-between;
+      align-self: center;
+      color: #fff;
+    }
+}
