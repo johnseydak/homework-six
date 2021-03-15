@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans";
+}
+
+html, body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 20px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.otf);
+}
+.nav {
+  width: 980px;
+  height: 60px;
+  border-bottom: black solid 3px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nav .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+.nav .links {
+  width: 400px;
+  height: 42px;
+  font-family: "GillSans";
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .links div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+.nav .links div a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  text-transform: lowercase;
+}
+
+@media only screen and (max-width: 1060px) {
+  .nav {
+    max-width: 980px;
+    height: 60px;
+    border-bottom: black solid 3px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav .logo {
+    width: 92px;
+    height: 42px;
+    align-self: center;
+  }
+
+  .nav .links {
+    width: 400px;
+    height: 42px;
+    font-family: GillSans;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav .links div.pipe {
+    color: #79ADDC;
+    font-size: 20px;
+  }
+
+  .nav .links div a {
+    font-family: "GillSans";
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    text-transform: lowercase;
+  }
+}
+footer {
+  max-width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 120px;
+  margin-top: 285px;
+  margin-bottom: 0px;
+}
+footer .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+footer .copyright {
+  font-size: 12px;
+  align-self: center;
+  color: #fff;
+}
+footer .socialmedia {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1060px) {
+  footer {
+    max-width: 100%;
+    height: 100px;
+    background-color: #79ADDC;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+  }
+
+  footer .logo {
+    width: 92px;
+    height: 42px;
+    align-self: center;
+  }
+
+  footer .copyright {
+    font-size: 12px;
+    align-self: center;
+    color: #fff;
+  }
+
+  footer .socialmedia {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: #fff;
+  }
+}
+.hero {
+  max-width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.hero .bannertext {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 80px;
+}
+.hero .lorem {
+  text-align: center;
+  color: white;
+}
+.hero .readmore {
+  background-color: #79ADDC;
+  padding: 15px 30px;
+  width: 150px;
+  text-align: center;
+  left: 565px;
+  top: 50px;
+  color: white;
+  margin: 0 auto;
+}
+
+.promo-tours {
+  max-width: 1280px;
+  min-height: 304px;
+  margin: -50px auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236px;
+  background-color: bisque;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30 px;
+}
+.promo-tours .promo .header {
+  font-family: GillSans;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.promo-tours .promo .price {
+  margin-bottom: 70px;
+}
+.promo-tours .promo .learn-more {
+  background-color: #79ADDC;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.promo-tours .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+}
+.promo-tours .usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+}
+.promo-tours .austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+}
+
+@media only screen and (max-width: 1060px) {
+  .promo-tours {
+    width: 236px;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .promo-tours .promo {
+    margin-bottom: 30 px;
+  }
+}
