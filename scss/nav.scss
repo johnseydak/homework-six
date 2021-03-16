@@ -1,5 +1,5 @@
 .nav {
-    width: 980px;
+    max-width: 980px;
     height: 60px;
     border-bottom: black solid 3px;
     //background-color: red;
@@ -71,7 +71,7 @@
   .nav .links {
     width: 400px;
     height: 42px;
-    font-family: GillSans;
+    font-family: 'Gill Sans';
     align-self: center;
     //display: flex;
     justify-content: space-between;

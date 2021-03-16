@@ -20,7 +20,11 @@ padding-bottom: 20px;
 }
 
 @font-face {
-    font-family: GillSans;
-    src: url(fonts/GillSans.otf);
+    font-family: 'Gill Sans';
+    src: url(fonts/GillSans.ttc);
 }
- 
+
+@font-face {
+    font-family: 'Proxima';
+    src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}

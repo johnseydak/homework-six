@@ -1,44 +1,24 @@
 .hero {
     max-width: 980px;
-    height: 500px;
-    background-image: $overlay, url(../images/tours-header.jpg);
+    height: 200px;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5),
+        ),
+        url(../images/tours-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 0 auto;
+    margin: 20px auto 48px auto;
     padding-top: 20px;
-
-        //.nav {
-
-            //.logo {
-
-            //}
-            //.links {
-                //font-family: "GillSans";
-            //}
-
-       //}
+    font-family: Gills;
+    
        .bannertext{
            text-align: center;
            font-size: 50px;
            color: white;
            padding-top: 80px;
-
+           font-family: Gills;
        }
-       .lorem {
-            text-align: center;
-            color: white;
-       }
-       .readmore {
-            background-color: $site-blue;
-            padding: 15px 30px;
-            //border-radius: 20px;
-            width: 150px;
-            //position:relative;
-            text-align: center;
-            left:565px;
-            top: 50px;
-            color:white;
-            margin: 0 auto;
-        }
-}
+    }
